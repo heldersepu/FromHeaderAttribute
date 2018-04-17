@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace FromHeaderAttribute.Sample
+namespace FromHeaderAttribute_Sample
 {
     public class FilterConfig
     {

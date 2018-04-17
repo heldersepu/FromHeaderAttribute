@@ -11,7 +11,7 @@ using System.Web.Http.Controllers;
 using System.Web.Http.ModelBinding;
 using System.Web.Http.ValueProviders;
 
-namespace RedRiver.FromHeaderAttribute
+namespace System.Web.Http
 {
     /// <summary>
     /// An attribute that specifies an action parameter comes from the HTTP headers of the incoming request

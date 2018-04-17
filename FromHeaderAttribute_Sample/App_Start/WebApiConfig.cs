@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
 
-namespace FromHeaderAttribute.Sample
+namespace FromHeaderAttribute_Sample
 {
     public static class WebApiConfig
     {

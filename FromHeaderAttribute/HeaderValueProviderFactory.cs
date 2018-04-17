@@ -8,7 +8,7 @@
 using System.Web.Http.Controllers;
 using System.Web.Http.ValueProviders;
 
-namespace RedRiver.FromHeaderAttribute
+namespace System.Web.Http
 {
     /// <summary>
     /// Factory used by the Web API framework to get an instance of our value provider.

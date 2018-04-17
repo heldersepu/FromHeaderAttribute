@@ -12,7 +12,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Web.Http.ValueProviders;
 
-namespace RedRiver.FromHeaderAttribute
+namespace System.Web.Http
 {
     /// <summary>
     /// Model binding value provider which sources values from HTTP request headers.  By default,

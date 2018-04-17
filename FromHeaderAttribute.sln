@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedRiver.FromHeaderAttribute", "RedRiver.FromHeaderAttribute\RedRiver.FromHeaderAttribute.csproj", "{8DFE2968-38B3-44BA-A5C2-0A36C96E80E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromHeaderAttribute", "FromHeaderAttribute\FromHeaderAttribute.csproj", "{8DFE2968-38B3-44BA-A5C2-0A36C96E80E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromHeaderAttribute.Sample", "FromHeaderAttribute.Sample\FromHeaderAttribute.Sample.csproj", "{0A77DD20-7583-43E8-904E-A41AC433FA15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromHeaderAttribute_Sample", "FromHeaderAttribute_Sample\FromHeaderAttribute_Sample.csproj", "{0A77DD20-7583-43E8-904E-A41AC433FA15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {946208F0-A4E5-4D44-A953-147D209E9C72}
 	EndGlobalSection
 EndGlobal

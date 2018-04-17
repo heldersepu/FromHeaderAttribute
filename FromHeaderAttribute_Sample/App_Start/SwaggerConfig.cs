@@ -6,13 +6,13 @@ using System.Web.Http.Description;
 using System.Web.Http.Routing.Constraints;
 using System.Collections.Generic;
 
-using FromHeaderAttribute.Sample;
+using FromHeaderAttribute_Sample;
 using Swagger.Net.Application;
 using Swagger.Net;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace FromHeaderAttribute.Sample
+namespace FromHeaderAttribute_Sample
 {
     public class SwaggerConfig
     {
@@ -39,7 +39,7 @@ namespace FromHeaderAttribute.Sample
                         // hold additional metadata for an API. Version and title are required but you can also provide
                         // additional fields by chaining methods off SingleApiVersion.
                         //
-                        c.SingleApiVersion("v1", "FromHeaderAttribute.Sample");
+                        c.SingleApiVersion("v1", "FromHeaderAttribute_Sample");
 
                         // Taking to long to load the swagger docs? Enable this option to start caching it
                         //
