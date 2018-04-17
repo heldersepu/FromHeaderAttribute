@@ -4,13 +4,12 @@
     <id>FromHeaderAttribute</id>
     <version>$version$</version>
     <title>FromHeaderAttribute</title>
-    <authors></authors>
+    <authors>KierenJ, HelderSepu</authors>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/heldersepu/FromHeaderAttribute</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides a means of using model binding to get and validate HTTP headers in Web API 2</description>
     <summary></summary>
-    <iconUrl></iconUrl>
     <copyright>Copyright 2015</copyright>
     <tags>FromHeaderAttribute WebApi AspNet AspNetWebApi</tags>
     <dependencies>
