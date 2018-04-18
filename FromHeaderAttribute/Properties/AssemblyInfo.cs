@@ -19,5 +19,5 @@ using System.Runtime.InteropServices;
 public struct FromHeaderAttributeAssemb
 {
     public const string Title = @"FromHeaderAttribute";
-    public const string Version = @"2.0.0.1";
+    public const string Version = @"2.0.1";
 }
