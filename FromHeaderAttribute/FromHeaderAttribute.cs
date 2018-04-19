@@ -5,8 +5,6 @@
 //
 // This source code is made available under the terms of the MIT General License.
 //
-using System;
-using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.ModelBinding;
 using System.Web.Http.ValueProviders;
@@ -17,7 +15,7 @@ namespace System.Web.Http
     /// An attribute that specifies an action parameter comes from the HTTP headers of the incoming request
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Parameter, Inherited = true, AllowMultiple = false)]
-    public class FromHeaderAttribute : ParameterBindingAttribute
+    public class FromHeaderAttribute : ModelBinderAttribute
     {
         /// <summary>
         /// Gets the binding for this HTTP header parameter
