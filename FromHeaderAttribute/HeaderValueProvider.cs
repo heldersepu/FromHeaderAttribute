@@ -57,10 +57,7 @@ namespace System.Web.Http
             // keys come in with dot notation - take only the very last component to flatten
             var propName = RemovePrefixes(key);
 
-            // convert this member name into a HTTP header name
-            var headerName = MakeHeaderName(propName);
-
-            if (!_headers.TryGetValues(headerName, out values))
+            if (!_headers.TryGetValues(propName, out values))
             {
                 return null;
             }
@@ -74,23 +71,6 @@ namespace System.Web.Http
             if (lastDot == -1) return key;
 
             return key.Substring(lastDot + 1);
-        }
-
-        private static string MakeHeaderName(string key)
-        {
-            var headerBuilder = new StringBuilder();
-
-            for (int i = 0; i < key.Length; i++)
-            {
-                // prefix any uppercase characters other than the first with a dash
-                if (char.IsUpper(key[i]) && i > 0)
-                {
-                    headerBuilder.Append('-');
-                }
-                headerBuilder.Append(key[i]);
-            }
-
-            return headerBuilder.ToString();
         }
     }
 }
